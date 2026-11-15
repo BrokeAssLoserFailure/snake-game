@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family:
+    system-ui,
+    -apple-system,
+    sans-serif;
+  background: #1a1a2e;
+  color: #eee;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game-container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.score-line {
+  font-size: 1.1rem;
+}
+
+.score-line span {
+  font-weight: bold;
+  color: #2ecc71;
+}
+
+canvas {
+  background: #000;
+  border: 2px solid #333;
+  border-radius: 4px;
+}
+
+.hint {
+  font-size: 0.85rem;
+  color: #888;
+}

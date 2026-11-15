@@ -1,6 +1,6 @@
 // ─── Configuration ───────────────────────────────────────────
 const CELL_SIZE = 20;
-const TICK_MS = 150;
+const TICK_MS = 120;
 const COLORS = {
   background: "#000",
   snake: "#2ecc71",
